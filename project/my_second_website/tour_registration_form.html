@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="form, HTML, web design">
+  <meta name="author" content="Md. Al Amin">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/Logo.png" type="image/x-icon">
+  <title>Tour Registration Form</title>
+</head>
+
+<body>
+  <h2>Please Fill The Form</h2>
+  <form action="">
+    <fieldset>
+      <legend>Tour Registration Form</legend>
+      <div class="input">
+        <label for="">Enter Your Name</label><br>
+        <input placeholder="Enter Your Profetional Name" type="text" minlength="6"name="name" id="input_name" size="30" required/>
+
+      </div>
+      <br>
+      <div class="input">
+        <label for="">Enter Your Email</label><br>
+        <input placeholder="Enter Your Official Email" type="email" name="name" id="input_Email" size="30" required/>
+        
+      </div>
+      <br>
+      <div class="input">
+        <label for="">Enter Company Name</label><br>
+        <input placeholder="Company" type="text" name="Company" id="input_Company" size="30" required value="Vir Production"readonly/>
+        
+      </div>
+      <br>
+      <div class="input">
+        <label for="">Enter Your Favorite Color</label><br>
+        <input placeholder="Enter YOur color" type="color" name="Color" id="input_Color" required />
+        
+      </div>
+      <br>
+       <div class="input">
+        <label for="">Enter Your BirthDay </label><br>
+        <input  type="date" name="date" id="input_date" required />
+        
+      </div>
+      <br>
+       <div class="input">
+        <label for="">Enter Your Joining Date </label><br>
+        <input type="datetime-local" name="Joining" id="input_Joining" required />
+        
+      </div>
+      <br>
+      <div class="input">
+        <label for="">Uplode Your Photo </label><br>
+        <input type="file" name="Photo" id="input_Photo" required multiple/>
+        
+      </div>
+      <br>
+      <div class="input">
+        <label for="">Enter Your Password </label><br>
+        <input type="password"minlength="6" name="Password" id="input_Password" required />
+        
+      </div>
+      <br>
+       <div>
+            <label for="">Enter Your Phonr Number</label><br>
+            <input type="number"required>
+        </div>
+        <div>
+            <label for="">Enter Your Gender</label>
+            <input type="radio"name="Gender"id=""value="Male">Male
+            <input type="radio"name="Gender"value="Female">Female 
+            
+        </div>
+    </br>
+        <div>
+            <label for="">Select Your Hobby</label><br>
+            <input type="checkbox">Cricket
+            <input type="checkbox">Football
+            <input type="checkbox">Coding
+        </div>
+        <br>
+        <div class="input">
+        <label for="">Enter Your Age </label><br>
+        <input type="number"min="18" max="40" name="Age" id="input_Age" required />
+        
+      </div>
+      <br>
+      <div class="input">
+        <label for="">Enter Your Diffculty Lavel </label><br>
+        <select name="" id=""required>
+          <option value="">Easy</option>
+          <option value="">Medium</option>
+          <option value=""selected>Hard</option>
+        </select>
+        
+      </div>
+      <br>
+      <div>
+        <input type="submit"value="Register Now">
+      </div>
+    </fieldset>
+  </form>
+</body>
+
+</html>

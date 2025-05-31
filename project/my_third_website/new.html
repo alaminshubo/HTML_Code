@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <title>আমার ওয়েবসাইট</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f0f8ff;
+        }
+
+        /* Navbar style */
+        .navbar {
+            background-color: #34495e;
+            overflow: hidden;
+            padding: 10px 0;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #2c3e50;
+        }
+
+        /* Main content */
+        .container {
+            padding: 40px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        p {
+            color: #34495e;
+        }
+
+        img {
+            width: 300px;
+            border-radius: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+
+        /* About section */
+        .about {
+            background-color: #e8f6f3;
+            padding: 30px;
+            margin-top: 30px;
+            border-radius: 10px;
+        }
+
+        /* Contact form */
+        .contact {
+            margin-top: 40px;
+            text-align: left;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .contact input, .contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .contact button {
+            background-color: #2ecc71;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #34495e;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="#">হোম</a>
+        <a href="#about">আমাদের সম্পর্কে</a>
+        <a href="#contact">যোগাযোগ</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1>স্বাগতম!</h1>
+        <p>এটি একটি সুন্দর HTML ওয়েব পেজের উদাহরণ।</p>
+        <img width="100px" height="300px" src="assets/image.jpg" alt=""><br><br>
+        <button onclick="alert('ধন্যবাদ!')">আমাকে ক্লিক করো</button>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="about">
+        <h2>আমাদের সম্পর্কে</h2>
+        <p>আমরা একটি সৃজনশীল দল, যারা ওয়েব ডেভেলপমেন্ট, ডিজাইন এবং প্রযুক্তি বিষয়ক কাজ করে থাকি।</p>
+    </div>
+
+    <!-- Contact Form -->
+    <div id="contact" class="contact">
+        <h2>যোগাযোগ করুন</h2>
+        <form>
+            <label>আপনার নাম:</label>
+            <input type="text" name="name" required>
+
+            <label>ইমেইল:</label>
+            <input type="email" name="email" required>
+
+            <label>বার্তা:</label>
+            <textarea name="message" rows="5" required></textarea>
+
+            <button type="submit">পাঠান</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        &copy; ২০২৫ আমার ওয়েবসাইট | সর্বস্বত্ব সংরক্ষিত
+    </div>
+
+</body>
+</html>

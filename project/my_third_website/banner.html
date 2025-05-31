@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner</title>
+    <style>
+        #banner{
+            background-color: aqua;
+            background-image: url("assets/image2.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            /*margin, padding, border, width, height*/
+            /* box model style */
+            margin: 80px;
+            padding: 100px;
+            border-color: brown;
+            border-style: solid;
+            border-width: 10px;
+            /*height: 200px;
+            width: 500px;*/
+        }
+        button{
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-bottom: 8px;
+            padding-top: 8px;
+            border: 0px;
+            background-color: rgb(199, 7, 7);
+            color: black;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: coral;
+        }
+        #my_image{
+            width: 500px;
+            height: 400px;
+            object-fit: cover;
+        }
+        #image_box
+        {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="banner">
+        <h2>This is my banner</h2>
+        <p >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam pariatur harum dolore ullam dolorum!
+            Accusantium in vitae voluptatem doloribus explicabo. Maiores accusantium quis nihil commodi aperiam officia
+            voluptatibus quas dolorum.
+        </p>
+        <button>click me</button>
+    </div>
+    <div id="image_box">
+        <img id="my_image" src="assets/image1.jpg" alt="">
+    </div>
+</body>
+
+</html>

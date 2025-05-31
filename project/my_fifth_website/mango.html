@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mango</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        #mango {
+            padding: 50px;
+            background: linear-gradient(150deg, yellow,  yellowgreen);
+            max-width: 900px;
+            margin: 0px auto;
+            font-size: 80px;
+        }
+        /*tablet device 0 - 992px */
+        @media screen and (max-width: 992px){
+            #mango{
+            background: linear-gradient(150deg, green,  yellowgreen);
+            font-size: 60px;
+            }
+        }
+        /*Mobile 0-576px */
+         @media screen and (max-width: 576px){
+            #mango{
+            background: linear-gradient(150deg, green,  rgb(118, 204, 118));
+            font-size: 40px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mango">
+        I am Mango
+    </div>
+</body>
+
+</html>
